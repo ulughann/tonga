@@ -12,6 +12,7 @@ export default defineConfig({
       pagination: false,
       logo: {
         src: "/logo.png",
+        replacesTitle: true,
       },
       social: {
         github: "https://github.com/onrirr",

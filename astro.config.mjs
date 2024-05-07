@@ -10,6 +10,9 @@ export default defineConfig({
       tableOfContents: false,
       title: "𐱃𐰆𐰭𐰀",
       pagination: false,
+      logo: {
+        src: "/logo.png",
+      },
       social: {
         github: "https://github.com/onrirr",
       },

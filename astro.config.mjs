@@ -9,6 +9,7 @@ export default defineConfig({
     starlight({
       tableOfContents: false,
       title: "𐱃𐰆𐰭𐰀",
+      pagination: false,
       social: {
         github: "https://github.com/onrirr",
       },

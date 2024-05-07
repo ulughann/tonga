@@ -31,14 +31,15 @@ JSON.parse(data).forEach((item, i) => {
     return;
   }
   let description = item.Meaning || item["Russian meaning"] || item["Comments"];
-  // create new file under src/pages with index
+  let meaning = item.Meaning || "";
+  delete item.Meaning;
   fs.writeFileSync(
     `./src/content/docs/words/${rt}.md`,
     `---
 title: "${t}"
 description: ${description}
 ---
-
+<strong>${meaning}</strong><br><br>
 ${Object.keys(item)
   .map((key) => `<strong>${key}</strong>: ${item[key]}<br>`)
   .join("\n")}

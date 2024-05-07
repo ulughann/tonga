@@ -6,4 +6,4 @@ It's primal data is based on the [StarlingDB](https://starlingdb.org) project. D
 
 We thank Sergei Anatolyevich Starostin for his work and dedication to the project and hope he may forever rest in peace.
 
-![https://starlingdb.org/Sergei.jpg](https://starlingdb.org/Sergei.jpg)
+<img src="https://starlingdb.org/Sergei.jpg" width="200" />

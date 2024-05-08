@@ -24,6 +24,9 @@ export default defineConfig({
       social: {
         github: "https://github.com/onrirr",
       },
+      components: {
+        Head: "./src/components/starlight/Head.astro"
+      },
       sidebar: [
         {
           translations: {

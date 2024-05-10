@@ -99,15 +99,6 @@ export default defineConfig({
         },
         {
           translations: {
-            en: "Dictionary",
-            "tr-TR": "Sözlük",
-          },
-          label: "Turkic Dictionary",
-          autogenerate: { directory: "words" },
-          badge: "Only In English",
-        },
-        {
-          translations: {
             en: "History",
             "tr-TR": "Tarih",
           },

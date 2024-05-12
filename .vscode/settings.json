@@ -13,7 +13,6 @@
     ".github": true,
     "tsconfig.json": true,
     "logo.png": true,
-    "pnpm-lock.yaml": true,
     "datagen.s.js": true,
     "data.json": true
   },
@@ -25,7 +24,6 @@
     ".github",
     "tsconfig.json",
     "logo.png",
-    "pnpm-lock.yaml",
     "datagen.s.js",
     "data.json"
   ]

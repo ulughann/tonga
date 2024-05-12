@@ -40,6 +40,15 @@ export default defineConfig({
         },
         {
           translations: {
+            en: "Animals & Nature",
+            "tr-TR": "Hayvanlar & Doğa",
+          },
+          label: "Hayvanlar & Doğa",
+          autogenerate: { directory: "hayvanlar" },
+          collapsed: true,
+        },
+        {
+          translations: {
             en: "Philosophy",
             "tr-TR": "Felsefe",
           },

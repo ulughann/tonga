@@ -7,7 +7,7 @@ export default defineConfig({
   base: "tonga",
   integrations: [
     starlight({
-      defaultLocale: "tr",
+      defaultLocale: "en",
       locales: {
         // English docs in `src/content/docs/en/`
         en: {

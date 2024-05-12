@@ -67,6 +67,15 @@ export default defineConfig({
         },
         {
           translations: {
+            en: "Fillers",
+            "tr-TR": "Doldurucu Sözcükler",
+          },
+          label: "Doldurucu Sözcükler",
+          autogenerate: { directory: "doldurucu" },
+          collapsed: true,
+        },
+        {
+          translations: {
             en: "Daily Life",
             "tr-TR": "Günlük Hayat",
           },

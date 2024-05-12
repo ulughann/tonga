@@ -24,6 +24,9 @@ export default defineConfig({
       social: {
         github: "https://github.com/onrirr",
       },
+      components: {
+        Head: "./src/components/starlight/Head.astro",
+      },
       sidebar: [
         {
           translations: {
@@ -115,7 +118,18 @@ export default defineConfig({
           autogenerate: { directory: "bilim" },
           collapsed: true,
         },
-
+        {
+          translations: {
+            en: "Writings",
+            "tr-TR": "Yazıtlar",
+          },
+          label: "Yazıtlar",
+          autogenerate: { directory: "writings" },
+          badge: {
+            text: "!",
+            variant: "tip",
+          },
+        },
         {
           translations: {
             en: "Dictionary",

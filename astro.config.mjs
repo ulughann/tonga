@@ -24,6 +24,7 @@ export default defineConfig({
       social: {
         github: "https://github.com/onrirr",
       },
+      customCss: ["./src/styles/s.css"],
       components: {
         Head: "./src/components/starlight/Head.astro",
       },

@@ -1,0 +1,21 @@
+.mu {
+  line-height: 1.3;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  text-align: right;
+  font-family: tbldamga;
+  font-size: 180%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 4px;
+}
+
+.mt {
+  line-height: 1.3;
+  padding: 0.5%;
+  padding-bottom: 0.5em;
+}
+
+.d {
+  background-color: #4642421f;
+}

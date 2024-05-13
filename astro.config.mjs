@@ -112,15 +112,6 @@ export default defineConfig({
         },
         {
           translations: {
-            en: "Science",
-            "tr-TR": "Bilim",
-          },
-          label: "Bilim",
-          autogenerate: { directory: "bilim" },
-          collapsed: true,
-        },
-        {
-          translations: {
             en: "History",
             "tr-TR": "Tarih",
           },

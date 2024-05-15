@@ -40,6 +40,15 @@ export default defineConfig({
         },
         {
           translations: {
+            en: "Computers and the Internet",
+            "tr-TR": "Bilgisayar ve İnternet",
+          },
+          label: "Bilgisayar ve İnternet",
+          autogenerate: { directory: "bilgisayar" },
+          collapsed: true,
+        },
+        {
+          translations: {
             en: "Animals & Nature",
             "tr-TR": "Hayvanlar & Doğa",
           },

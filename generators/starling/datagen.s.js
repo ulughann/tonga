@@ -34,17 +34,18 @@ JSON.parse(data).forEach((item, i) => {
   let meaning = item.Meaning || "";
   delete item.Meaning;
   fs.writeFileSync(
-    `./src/content/docs/words/${rt}.md`,
+    `../../src/content/docs/en/words/${rt}.md`,
     `---
 title: "${t}"
 description: ${description}
 ---
+<p data-pagefind-weight="0.5">
 <strong>${meaning}</strong><br><br>
 ${Object.keys(item)
   .map((key) => `<strong>${key}</strong>: ${item[key]}<br>`)
   .join("\n")}
 
-
+</p>
 `
   );
 });

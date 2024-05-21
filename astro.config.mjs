@@ -41,6 +41,14 @@ export default defineConfig({
         },
         {
           translations: {
+            "tr-TR": "Donanım",
+          },
+          label: "Donanım",
+          autogenerate: { directory: "donanim" },
+          collapsed: true,
+        },
+        {
+          translations: {
             en: "Computers and the Internet",
             "tr-TR": "Bilgisayar ve İnternet",
           },

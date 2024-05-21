@@ -1,0 +1,15 @@
+---
+// src/overrides/Sidebar.astro
+import type { Props } from "@astrojs/starlight/props";
+import Default from "@astrojs/starlight/components/Sidebar.astro";
+
+const isEnglishPage = Astro.url.pathname.startsWith("/tonga/en/");
+
+Astro.props.sidebar = Astro.props.sidebar.filter(
+  (entry) => entry.type === "group" && entry.label == "Dictionary"
+);
+
+console.log(Astro.props);
+---
+
+<Default {...Astro.props}><slot /></Default>

@@ -7,15 +7,15 @@ export default defineConfig({
   base: "tonga",
   integrations: [
     starlight({
-      defaultLocale: "en",
+      defaultLocale: "root",
       locales: {
-        // English docs in `src/content/docs/en/`
-        en: {
-          label: "English",
-        },
-        tr: {
-          label: "Türkçe",
+        root: {
           lang: "tr-TR",
+          label: "Türkçe",
+        },
+        en: {
+          label: "Starling",
+          lang: "en",
         },
       },
       tableOfContents: false,
@@ -27,6 +27,7 @@ export default defineConfig({
       customCss: ["./src/styles/s.css"],
       components: {
         Head: "./src/components/starlight/Head.astro",
+        Sidebar: "./src/components/starlight/Sidebar.astro",
       },
       sidebar: [
         {

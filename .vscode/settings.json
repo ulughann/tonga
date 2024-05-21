@@ -12,7 +12,9 @@
     ".astro": true,
     ".github": true,
     "tsconfig.json": true,
-    "logo.png": true
+    "logo.png": true,
+    "LICENSE": true,
+    ".gitignore": true
   },
   "hide-files.files": [
     "node_modules",
@@ -21,6 +23,8 @@
     ".astro",
     ".github",
     "tsconfig.json",
-    "logo.png"
+    "logo.png",
+    "LICENSE",
+    ".gitignore"
   ]
 }

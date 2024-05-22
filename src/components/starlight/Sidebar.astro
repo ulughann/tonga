@@ -8,7 +8,6 @@ if (Astro.url.pathname.startsWith("/tonga/en/")) {
     (entry) => entry.type === "group" && entry.label == "Dictionary"
   );
 }
-console.log(Astro.props);
 ---
 
 <Default {...Astro.props}><slot /></Default>

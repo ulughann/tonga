@@ -160,14 +160,6 @@ export default defineConfig({
         },
         {
           translations: {
-            en: "Alphabets",
-            "tr-TR": "Alfabeler",
-          },
-          label: "Alfabeler",
-          autogenerate: { directory: "alphabets" },
-        },
-        {
-          translations: {
             en: "Dictionary",
             "tr-TR": "Sözlük",
           },

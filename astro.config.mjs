@@ -109,15 +109,6 @@ export default defineConfig({
         },
         {
           translations: {
-            en: "History",
-            "tr-TR": "Tarih",
-          },
-          label: "Tarih",
-          autogenerate: { directory: "tarih" },
-          collapsed: true,
-        },
-        {
-          translations: {
             en: "Theology",
             "tr-TR": "Teoloji",
           },

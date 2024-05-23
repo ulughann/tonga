@@ -3,8 +3,6 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://onrirr.github.io",
-  base: "tonga",
   integrations: [
     starlight({
       defaultLocale: "root",

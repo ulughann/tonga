@@ -11,4 +11,6 @@ Bit -> Bit
 
 2. isim Bir belleğin içindeki en küçük veri tutma birimi.
 
+[TDK: Bit](https://sozluk.gov.tr/?ara=bit)
+
 Türkçe'ye “hayvan ve bitkilerde yaşayan bir asalak” olan "bit" biçiminde geçirilebilir -Onrir

@@ -103,6 +103,8 @@ collections:
 backend:
   name: github
   repo: onrirr/tonga
+  open_authoring: true
+  auth_scope: repo
 
 media_folder: "static/images/uploads" 
 public_folder: "/images/uploads"

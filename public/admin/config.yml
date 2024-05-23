@@ -19,7 +19,6 @@ collections:
       - { label: "Açıklama (Orijinal K. -> Çeviri)", name: "description", widget: "string" }
       - { label: "Paylaşım tarihi", name: "date", widget: "datetime" }
       - { label: "Arama, Açıklama, Örnek", name: "body", widget: "markdown" }
-
   - name: "bilim" # Used in routes, e.g., /admin/collections/bilim
     label: "Bilim"
     description: "Bilim - kelime ekle" # Used in the UI
@@ -30,7 +29,6 @@ collections:
       - { label: "Açıklama (Orijinal K. -> Çeviri)", name: "description", widget: "string" }
       - { label: "Paylaşım tarihi", name: "date", widget: "datetime" }
       - { label: "Arama, Açıklama, Örnek", name: "body", widget: "markdown" }
-
   - name: "doldurucular" # Used in routes, e.g., /admin/collections/doldurucular
     label: "Doldurucular"
     description: "Doldurucular - kelime ekle" # Used in the UI
@@ -41,7 +39,6 @@ collections:
       - { label: "Açıklama (Orijinal K. -> Çeviri)", name: "description", widget: "string" }
       - { label: "Paylaşım tarihi", name: "date", widget: "datetime" }
       - { label: "Arama, Açıklama, Örnek", name: "body", widget: "markdown" }
-
   - name: "felsefe" # Used in routes, e.g., /admin/collections/felsefe
     label: "Felsefe"
     description: "Felsefe - kelime ekle" # Used in the UI
@@ -52,7 +49,6 @@ collections:
       - { label: "Açıklama (Orijinal K. -> Çeviri)", name: "description", widget: "string" }
       - { label: "Paylaşım tarihi", name: "date", widget: "datetime" }
       - { label: "Arama, Açıklama, Örnek", name: "body", widget: "markdown" }
-
   - name: "gunluk-hayat" # Used in routes, e.g., /admin/collections/gunluk-hayat
     label: "Günlük Hayat"
     description: "Günlük Hayat - kelime ekle" # Used in the UI
@@ -63,7 +59,6 @@ collections:
       - { label: "Açıklama (Orijinal K. -> Çeviri)", name: "description", widget: "string" }
       - { label: "Paylaşım tarihi", name: "date", widget: "datetime" }
       - { label: "Arama, Açıklama, Örnek", name: "body", widget: "markdown" }
-
   - name: "hayvanlar" # Used in routes, e.g., /admin/collections/hayvanlar
     label: "Hayvanlar"
     description: "Hayvanlar - kelime ekle" # Used in the UI
@@ -74,7 +69,6 @@ collections:
       - { label: "Açıklama (Orijinal K. -> Çeviri)", name: "description", widget: "string" }
       - { label: "Paylaşım tarihi", name: "date", widget: "datetime" }
       - { label: "Arama, Açıklama, Örnek", name: "body", widget: "markdown" }
-
   - name: "tarih" # Used in routes, e.g., /admin/collections/tarih
     label: "Tarih"
     description: "Tarih - kelime ekle" # Used in the UI
@@ -85,7 +79,6 @@ collections:
       - { label: "Açıklama (Orijinal K. -> Çeviri)", name: "description", widget: "string" }
       - { label: "Paylaşım tarihi", name: "date", widget: "datetime" }
       - { label: "Arama, Açıklama, Örnek", name: "body", widget: "markdown" }
-
   - name: "teoloji" # Used in routes, e.g., /admin/collections/teoloji
     label: "Teoloji"
     description: "Teoloji - kelime ekle" # Used in the UI
@@ -96,13 +89,12 @@ collections:
       - { label: "Açıklama (Orijinal K. -> Çeviri)", name: "description", widget: "string" }
       - { label: "Paylaşım tarihi", name: "date", widget: "datetime" }
       - { label: "Arama, Açıklama, Örnek", name: "body", widget: "markdown" }
-
   - name: "tip" # Used in routes, e.g., /admin/collections/tip
     label: "Tip"
     description: "Tip - kelime ekle" # Used in the UI
-    folder: "src/content/docs/tip" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields for each document, usually in frontmatter
+    folder: "src/content/docs/tip"
+    create: true 
+    fields:
       - { label: "Kelime (Armut, Elma)", name: "title", widget: "string" }
       - { label: "Açıklama (Orijinal K. -> Çeviri)", name: "description", widget: "string" }
       - { label: "Paylaşım tarihi", name: "date", widget: "datetime" }
@@ -110,7 +102,7 @@ collections:
 
 backend:
   name: github
-  repo: onrirr/tonga # Path to your GitHub repository
+  repo: onrirr/tonga
 
 media_folder: "static/images/uploads" 
 public_folder: "/images/uploads"

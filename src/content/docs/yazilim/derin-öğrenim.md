@@ -7,4 +7,4 @@ Deep Learning -> Derin Öğrenim
 
 
 
-\> Derin Öğrenim, yapay es için önemli bir unsurdur.
+\> Derin Öğrenim, yapay es için önemli bir [nendir](/doldurucular/nen).

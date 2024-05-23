@@ -3,7 +3,7 @@
 import type { Props } from "@astrojs/starlight/props";
 import Default from "@astrojs/starlight/components/Sidebar.astro";
 
-if (Astro.url.pathname.startsWith("/tonga/en/")) {
+if (Astro.url.pathname.startsWith("/en/")) {
   Astro.props.sidebar = Astro.props.sidebar.filter(
     (entry) => entry.type === "group" && entry.label == "Dictionary"
   );

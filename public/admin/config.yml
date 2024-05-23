@@ -106,7 +106,6 @@ backend:
   open_authoring: true
   auth_scope: repo
 
-
 publish_mode: editorial_workflow
 media_folder: "static/images/uploads" 
 public_folder: "/images/uploads"

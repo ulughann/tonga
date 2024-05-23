@@ -13,10 +13,6 @@ export default defineConfig({
           lang: "tr-TR",
           label: "Türkçe",
         },
-        en: {
-          label: "Starling",
-          lang: "en",
-        },
       },
       tableOfContents: false,
       title: "𐱃𐰆𐰭𐰀",

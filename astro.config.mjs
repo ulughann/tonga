@@ -11,12 +11,12 @@ export default defineConfig({
       defaultLocale: "root",
       locales: {
         root: {
-          lang: "tr-TR",
-          label: "Türkçe",
-        },
-        en: {
           lang: "en-US",
           label: "English",
+        },
+        tr: {
+          lang: "tr-TR",
+          label: "Turkish",
         }
       },
       tableOfContents: false,

@@ -24,3 +24,8 @@ backend:
 publish_mode: editorial_workflow
 media_folder: "static/images/uploads" 
 public_folder: "/images/uploads"
+
+i18n:
+  structure: multiple_folders
+  locales: [en, tr]
+  default_locale: en

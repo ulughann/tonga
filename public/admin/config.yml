@@ -7,22 +7,21 @@ collections:
     fields: # The fields for each document, usually in frontmatter
       - { label: "Name", name: "title", widget: "string" }
       - { label: "Explanation", name: "description", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime", required:false }
-      - { label: "Turkish", name: "tr", widget: "datetime", required:false }
-      - { label: "Azerbaijani", name: "az", widget: "datetime", required:false }
-      - { label: "Turkmen", name: "tk", widget: "datetime", required:false }
-      - { label: "Kyrgyz", name: "ky", widget: "datetime", required:false }
-      - { label: "Kazakh", name: "kk", widget: "datetime", required:false }
-      - { label: "Volga Tatar", name: "tt", widget: "datetime", required:false }
-      - { label: "Crimean Tatar", name: "crh", widget: "datetime", required:false }
-      - { label: "Uzbek", name: "uz", widget: "datetime", required:false }
-      - { label: "Uyghur", name: "ug", widget: "datetime", required:false }
-      - { label: "Sakha", name: "sah", widget: "datetime", required:false }
-      - { label: "Göktürk", name: "otk", widget: "datetime", required:false }
-      - { label: "Göktürk", name: "otk", widget: "datetime", required:false }
-      -  { label: "Old Uighur", name: "oui", widget: "datetime", required:false }      
-      - { label: "Tuvan", name: "tyv", widget: "datetime", required:false }
-      - { label: "Chuvash", name: "cv", widget: "datetime", required:false }
+      - { label: "Date", name: "date", widget: "datetime", required: false }
+      - { label: "Turkish", name: "tr", widget: "datetime", required: false }
+      - { label: "Azerbaijani", name: "az", widget: "datetime", required: false }
+      - { label: "Turkmen", name: "tk", widget: "datetime", required: false }
+      - { label: "Kyrgyz", name: "ky", widget: "datetime", required: false }
+      - { label: "Kazakh", name: "kk", widget: "datetime", required: false }
+      - { label: "Volga Tatar", name: "tt", widget: "datetime", required: false }
+      - { label: "Crimean Tatar", name: "crh", widget: "datetime", required: false }
+      - { label: "Uzbek", name: "uz", widget: "datetime", required: false }
+      - { label: "Uyghur", name: "ug", widget: "datetime", required: false }
+      - { label: "Sakha", name: "sah", widget: "datetime", required: false }
+      - { label: "Göktürk", name: "otk", widget: "datetime", required: false }
+      - { label: "Old Uighur", name: "oui", widget: "datetime", required: false }      
+      - { label: "Tuvan", name: "tyv", widget: "datetime", required: false }
+      - { label: "Chuvash", name: "cv", widget: "datetime", required: false }
 
 
 backend:
